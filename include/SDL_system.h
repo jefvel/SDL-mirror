@@ -98,6 +98,8 @@ extern DECLSPEC void SDLCALL SDL_iPhoneSetEventPump(SDL_bool enabled);
  */
 extern DECLSPEC void * SDLCALL SDL_AndroidGetJNIEnv();
 
+extern DECLSPEC void * SDLCALL SDL_AndroidGetJavaVM();
+
 /**
    \brief Get the SDL Activity object for the application
 

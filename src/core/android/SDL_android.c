@@ -1613,7 +1613,9 @@ void *SDL_AndroidGetJNIEnv()
     return Android_JNI_GetEnv();
 }
 
-
+void *SDL_AndroidGetJavaVM() {
+    return mJavaVM;
+}
 
 void *SDL_AndroidGetActivity()
 {
